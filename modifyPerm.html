@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+    <title>modify permissions</title>
+	<link rel = "stylesheet" type= "text/css" href= "infoStyles.css"/>
+</head>
+
+<body>
+
+    
+	
+	
+	<div id ="header">
+        UNIX BASICS
+		<div id= "links">
+			<a href="about.html">ABOUT THIS SITE</a>
+			<a href="http://people.rit.edu/tep7927/409">409 HOME</a>
+		</div>
+    </div>
+	
+	<div id = "info">
+	
+		<div id ="nav">
+
+				<ul>
+					<li><a href="index.html">UNIX HOME</a></li>
+					
+					<li>NAVIGATING PATHS
+					<ul>
+							<li><a href="viewing.html">VIEWING DIRECTORIES</a></li>
+							<li><a href="mkdir.html">CREATING DIRECTORIES</a></li>
+							<li><a href="cd.html">CHANGING DIRECTORIES</a></li>
+							<li><a href="navigating.html">NAVIGATING FILES</a></li>
+							<li><a href="current.html">CURRENT DIRECTORY</a></li>
+							<li><a href="getHome.html">GETTING HOME</a></li>
+					</ul>
+					<li>FILE HANDLING
+					<ul>
+						<li><a href="copying.html">COPYIING FILES</a></li>
+						<li><a href="moving.html">MOVING FILES</a></li>
+						<li><a href="removing.html">REMOVING FILES</a></li>
+						<li><a href="clear.html">CLEAR SCREEN</a></li>
+					</ul>
+						
+					<li>ACCESS RIGHTS
+					<ul>
+						<li><a href="permissions.html">PERMISSIONS</a></li>
+						<li><a href="viewingPerm.html">VIEW PERMISSIONS</a></li>
+						<li><a href="modifyPerm">MODIFY PERMISSIONS</a></li>
+					</ul>
+					<li><a href="moreCommands.html">MORE COMMANDS</a></li>
+					
+				</ul>	
+		</div>
+	
+		
+			
+			<div id = "content">
+				<div id = "contentTitle">
+					Modify Permissions
+				</div>
+				
+				<p>
+				If you are the owner of a file or directory you have the ability to alter a files permission settings.
+				The command used is:
+				<br/><code> chmod </code><br/>
+				You also have the option to add permissions(+), take away permissions(-) from any of three groups. User(u), group(g), other(o). 
+				An example command looks as follows:
+				<br/><code> chmod go-rwx mysongs </code><br/>
+				This code is taking away the read, write and execute permissions from the person whom the file belongs and all others for the file called Mysongs.
+
+				</p>  
+				
+			</div>
+    </div>
+    
+
+
+</body>
+</html>
